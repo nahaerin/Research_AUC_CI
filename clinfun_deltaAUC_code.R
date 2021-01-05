@@ -3,7 +3,7 @@
 # y : default /  non-default
 
 
-## it does not work
+## it does not work zzzzz
 set.seed(1)
 full_d <- mvtnorm::rmvnorm(30, c(0.2,0.2), matrix(c(1,0.8,0.8,1), nrow = 2))
 full_n <- mvtnorm::rmvnorm(30, c(0,0), matrix(c(1,0,0,1), nrow = 2))
